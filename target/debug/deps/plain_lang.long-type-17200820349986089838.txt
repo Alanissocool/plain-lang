@@ -1,0 +1,3 @@
+Stream<'_, Vec<Token>, <<impl chumsky::Parser<Vec<Token>, ast::Stmt> + Clone as chumsky::Parser<Vec<Token>, ast::Stmt>>::Error as chumsky::error::Error<Vec<Token>>>::Span, _>
+Stream<'_, Vec<Token>, <<impl chumsky::Parser<Vec<Token>, ast::Stmt> + Clone as chumsky::Parser<Vec<Token>, ast::Stmt>>::Error as chumsky::Error<Vec<Token>>>::Span, _>: From<Vec<Token>>
+Stream<'_, Vec<Token>, <<impl chumsky::Parser<Vec<Token>, ast::Stmt> + Clone as chumsky::Parser<Vec<Token>, ast::Stmt>>::Error as chumsky::Error<Vec<Token>>>::Span, _>

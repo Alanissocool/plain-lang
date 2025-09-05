@@ -1,0 +1,3 @@
+Stream<'_, &'static [Token], <<impl chumsky::Parser<&'static [Token], ast::Stmt> + Clone as chumsky::Parser<&'static [Token], ast::Stmt>>::Error as chumsky::error::Error<&'static [Token]>>::Span, _>
+Stream<'_, &'static [Token], <<impl chumsky::Parser<&'static [Token], ast::Stmt> + Clone as chumsky::Parser<&'static [Token], ast::Stmt>>::Error as chumsky::Error<&'static [Token]>>::Span, _>: From<&[Token]>
+Stream<'_, &'static [Token], <<impl chumsky::Parser<&'static [Token], ast::Stmt> + Clone as chumsky::Parser<&'static [Token], ast::Stmt>>::Error as chumsky::Error<&'static [Token]>>::Span, _>
