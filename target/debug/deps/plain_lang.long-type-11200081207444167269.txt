@@ -1,1 +1,0 @@
-chumsky::combinator::Map<Then<Just<&Token, &Token, _>, impl chumsky::Parser<&[Token], ast::Expr> + Clone>, fn((&Token, _)) -> _, (&Token, _)>
