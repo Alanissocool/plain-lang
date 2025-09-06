@@ -18,6 +18,7 @@ pub enum Stmt {
     Set(String, Expr),
     Add(Expr, String),
     Sub(Expr, String),
+    Multiply(String, Expr),
     Show(Expr),
     If(Expr, Box<Stmt>),
     Seq(Box<Stmt>, Box<Stmt>),

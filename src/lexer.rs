@@ -9,6 +9,8 @@ pub enum Token {
     Add,
     #[regex("subtract")]
     Sub,
+    #[regex("multiply")]
+    Multiply,
     #[regex("show")]
     Show,
     #[regex("print")]
@@ -27,6 +29,8 @@ pub enum Token {
     Equal,
     #[regex("to")]
     To,
+    #[regex("by")]
+    By,
     #[regex("on")]
     On,
     #[regex("screen")]
