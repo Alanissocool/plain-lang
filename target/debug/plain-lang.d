@@ -1,1 +1,0 @@
-G:\visan\plain-lang\target\debug\plain-lang.exe: G:\visan\plain-lang\src\ast.rs G:\visan\plain-lang\src\lexer.rs G:\visan\plain-lang\src\main.rs G:\visan\plain-lang\src\parser.rs G:\visan\plain-lang\src\repl.rs G:\visan\plain-lang\src\runtime.rs

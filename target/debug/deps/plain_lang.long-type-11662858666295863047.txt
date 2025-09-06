@@ -1,1 +1,0 @@
-chumsky::combinator::Map<Then<chumsky::combinator::Map<Then<chumsky::combinator::Map<Then<Just<Token, Token, _>, Just<Token, Token, _>>, fn((Token, Token)) -> Token, (Token, Token)>, Just<Token, Token, _>>, fn((Token, Token)) -> Token, (Token, Token)>, impl chumsky::Parser<Vec<Token>, ast::Expr> + Clone>, fn((Token, _)) -> _, (Token, _)>
