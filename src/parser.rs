@@ -78,6 +78,25 @@ fn parse_stmt(tokens: &[Token], pos: &mut usize) -> Result<Stmt, String> {
                 return Err("Expected 'from'".to_string());
             }
         }
+        Token::Multiply => {
+            *pos += 1;            
+            if matches!(tokens[*pos], Token::The) {
+                *pos += 1;
+            }
+            if let Token::Ident(name) = &tokens[*pos] {
+                *pos += 1;
+                if matches!(tokens[*pos], Token::By) {
+                    *pos += 1;
+                    let expr = parse_expr(tokens, pos)?;
+                    Stmt::Multiply(name.clone(), expr)
+                } else {
+                    return Err("Expected 'by'".to_string());
+                }
+            } else {
+                return Err("Expected identifier".to_string());
+            }
+            
+        }
         Token::Show => {
             *pos += 1;
             if matches!(tokens[*pos], Token::On) {

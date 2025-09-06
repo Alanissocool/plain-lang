@@ -81,6 +81,19 @@ impl Runtime {
                     Err(format!("I don't know the value of '{}'", name))
                 }
             }
+            Stmt::Multiply(name, expr) => {
+                let val = self.eval_expr(expr)?;
+                if let Some(Value::Int(current)) = self.vars.get(name) {
+                    if let Value::Int(sub) = val {
+                        self.vars.insert(name.clone(), Value::Int(current * sub));
+                        Ok(())
+                    } else {
+                        Err("Type error: expected number to subtract".to_string())
+                    }
+                } else {
+                    Err(format!("I don't know the value of '{}'", name))
+                }
+            }
             Stmt::Show(expr) => {
                 let val = self.eval_expr(expr)?;
                 match val {
